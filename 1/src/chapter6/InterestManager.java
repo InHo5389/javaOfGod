@@ -1,4 +1,4 @@
-package test;
+package chapter6;
 
 public class InterestManager {
 

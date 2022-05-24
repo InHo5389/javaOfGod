@@ -11,16 +11,19 @@ public class InterestManager {
 
     }
 
-    public double getInterestRate(int day){
-        if (day <= 90){
-            return 0.5;
-        }else if(day >= 91 && day <= 180){
-            return 1;
-        }else if(day >= 181 && day <= 364){
-            return 2;
-        }else{
-            return 5.6;
+
+    public double getInterestRate(int day) {
+        double interest;
+        if(day<=90) {
+            interest=0.5;
+        } else if(day>90 && day <=180) {
+            interest=1;
+        } else if(day>180 && day< 365) {
+            interest=2;
+        } else {
+            interest=5.6;
         }
+        return interest;
     }
 
     public double calculateAmount(int day,long amount){

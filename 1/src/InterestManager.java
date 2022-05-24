@@ -1,5 +1,3 @@
-package chapter6;
-
 public class InterestManager {
     public InterestManager() {
     }

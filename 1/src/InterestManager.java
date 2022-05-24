@@ -1,6 +1,4 @@
 public class InterestManager {
-    public InterestManager() {
-    }
 
     public static void main(String[] args) {
         InterestManager im = new InterestManager();

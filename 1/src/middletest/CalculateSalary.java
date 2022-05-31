@@ -47,4 +47,5 @@ public class CalculateSalary {
         }
         return salary;
     }
+
 }

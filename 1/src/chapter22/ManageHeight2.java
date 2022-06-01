@@ -2,11 +2,11 @@ package chapter22;
 
 import java.util.ArrayList;
 
-public class ManageHeight {
+public class ManageHeight2 {
 
 
     public static void main(String[] args) {
-        ManageHeight sample = new ManageHeight();
+        ManageHeight2 sample = new ManageHeight2();
         sample.setData();
         /*for(int i =1;i<=5;i++) {
             sample.printHeight(i);
